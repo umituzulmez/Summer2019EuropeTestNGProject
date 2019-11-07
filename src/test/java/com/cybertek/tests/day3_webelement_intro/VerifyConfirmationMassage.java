@@ -34,9 +34,9 @@ public class VerifyConfirmationMassage {
         emailInputbox.sendKeys(expectedEmail);
 
         //verify that email is displayed in the input box
-        //getting text from webelements
+        //getting text from web elements
         //getText()-->get text from web element %99
-        //getAttribute("value")-> get the value of attirubutes
+        //getAttribute("value")-> get the value of attiributes
         String actualEmail = emailInputbox.getAttribute("value");
 
         if(expectedEmail.equals(actualEmail)){
