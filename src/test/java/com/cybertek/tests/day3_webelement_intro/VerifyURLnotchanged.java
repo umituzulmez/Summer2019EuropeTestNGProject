@@ -25,7 +25,7 @@ public class VerifyURLnotchanged {
         //go to http://practice.cybertekschool.com/forgot_passwordLinks to an external site.
         driver.get("http://practice.cybertekschool.com/forgot_password");
 
-        //save url to String cariable
+        //save url to String variable
         String expectedUrl = driver.getCurrentUrl();
 
         //click on Retrieve password
@@ -43,6 +43,8 @@ public class VerifyURLnotchanged {
             System.out.println("PASS");
         }else{
             System.out.println("FAIL");
+            System.out.println("expectedUrl = " + expectedUrl);
+            System.out.println("actualUrl = " + actualUrl);
         }
 
         //close the browser
