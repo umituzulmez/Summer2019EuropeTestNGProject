@@ -18,6 +18,7 @@ public class ListOfElements {
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
 
+        //***use findElement's'***
         List<WebElement> buttons = driver.findElements(By.tagName("button"));
 
         System.out.println("buttons.size() = " + buttons.size());
