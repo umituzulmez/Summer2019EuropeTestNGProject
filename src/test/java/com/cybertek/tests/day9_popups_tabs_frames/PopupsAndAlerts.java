@@ -19,7 +19,7 @@ public class PopupsAndAlerts {
 
     @AfterMethod
     public void tearDownMethod(){
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
