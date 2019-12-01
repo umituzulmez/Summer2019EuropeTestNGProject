@@ -32,4 +32,5 @@ public class DisplayedDemo {
 
         Assert.assertTrue(usernameInput.isDisplayed());
     }
+
 }

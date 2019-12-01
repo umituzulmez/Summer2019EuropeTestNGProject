@@ -27,7 +27,7 @@ public class iframes {
     public void test1(){
         driver.get("http://practice.cybertekschool.com/iframe");
 
-        //HOW TO SWİTCH FRAMES
+        //HOW TO SWITCH FRAMES
 
         //1.Switch by using name or id attribute of iframe
         driver.switchTo().frame("mce_0_ifr");

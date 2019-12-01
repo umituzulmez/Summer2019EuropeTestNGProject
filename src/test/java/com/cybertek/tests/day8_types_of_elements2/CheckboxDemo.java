@@ -19,7 +19,7 @@ public class CheckboxDemo {
         WebElement checkbox1 = driver.findElement(By.xpath("//input[1]"));
         WebElement checkbox2 = driver.findElement(By.xpath("//input[2]"));
 
-        //verify that chechbox 1 is unselected and 2 is selected
+        //verify that checkbox 1 is unselected and 2 is selected
 
         Assert.assertFalse(checkbox1.isSelected(), "verify that checkbox1 is not selected");
         Assert.assertTrue(checkbox2.isSelected(),"verify that checkbox2 is selected");
