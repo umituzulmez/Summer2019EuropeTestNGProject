@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
 public class ExplicitWaitTest {
@@ -40,7 +39,7 @@ public class ExplicitWaitTest {
         //find the username box
         WebElement usernameBox = driver.findElement(By.id("username"));
 
-        //HOW TO WAİT EXPLİCİTLY?
+        //HOW TO WAİT EXPLICITLY?
         //Create Explicit wait object
         WebDriverWait wait = new WebDriverWait(driver,20);
 
