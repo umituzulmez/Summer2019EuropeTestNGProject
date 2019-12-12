@@ -28,7 +28,7 @@ public class WebTableExample {
     @AfterMethod
     public void tearDownMethod() throws InterruptedException {
         Thread.sleep(3000);
-        driver.quit();
+        //driver.quit();
     }
 
     @Test
