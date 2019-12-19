@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class CalendarEventsPage extends BasePage {
 
     public CalendarEventsPage() {
+
         PageFactory.initElements(Driver.get(), this);
     }
 
