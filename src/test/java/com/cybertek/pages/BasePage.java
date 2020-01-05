@@ -66,13 +66,12 @@ public abstract class BasePage {
         return userName.getText();
     }
 
-
-
     public void logOut(){
         BrowserUtils.waitFor(2);
         BrowserUtils.clickWithJS(userName);
         BrowserUtils.clickWithJS(logOutLink);
     }
+
     public void goToMyUser(){
         waitUntilLoaderScreenDisappear();
         BrowserUtils.waitForClickablility(userName, 5).click();
